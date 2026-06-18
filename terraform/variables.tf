@@ -1,7 +1,7 @@
 variable "repository_name" {
   description = "The name of the GitHub repository"
   type        = string
-  default     = "example-repo"
+  default     = "tf-managed-repo"
 }
 
 variable "repository_description" {
@@ -26,5 +26,4 @@ variable "github_token" {
 variable "github_owner" {
   description = "The GitHub owner (user or organization) for the repository"
   type        = string
-  default     = "Raamyybj"
 }
